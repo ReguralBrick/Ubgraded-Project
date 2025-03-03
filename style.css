@@ -1,0 +1,56 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(54, 29, 0);
+}
+
+a {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(160, 91, 0);
+    border: 10px solid black;
+    text-align: center;
+    line-height: 200px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+    color: azure;
+}
+
+a:hover {
+    background-color: rgb(255, 206, 151);
+    cursor: pointer;
+    color: black;
+    transition: ease-in-out 0.2s;
+}
+
+.button-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 808px;
+    padding-top: 236.25px;
+}
+
+.buybutton {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(160, 91, 0);
+    border: 10px solid black;
+    text-align: center;
+    line-height: 200px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+    color: azure;
+}
